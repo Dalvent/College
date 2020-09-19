@@ -15,30 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Scrambler4B5B.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShuttleScrambler.cpp">
+    <ClCompile Include="4B5B\Scrambler4B5B.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExampleShuttleScrambRule.cpp">
+    <ClCompile Include="ShuttleScrambler\ShuttleScrambler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuttleScrambler\ExampleShuttleScrambRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolScrambler\BoolScrambler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Scrambler4B5B.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ShuttleScrambler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ExampleShuttleScrambRule.h">
+    <ClInclude Include="4B5B\Scrambler4B5B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuttleScrambler\ShuttleScrambler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuttleScrambler\ExampleShuttleScrambRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolScrambler\BoolBitScrambler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolScrambler\BoolScrambler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

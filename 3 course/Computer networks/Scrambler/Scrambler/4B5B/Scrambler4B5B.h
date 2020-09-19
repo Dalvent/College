@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Base.h"
+#include <set>
 
 class Scrambler4B5B
 {

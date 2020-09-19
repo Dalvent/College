@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\dencr\source\repos\Dalvent\College\3 course\Computer networks\Scrambler\Scrambler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +131,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\dencr\source\repos\Dalvent\College\3 course\Computer networks\Scrambler\Scrambler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,16 +141,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ExampleShuttleScrambRule.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="BoolScrambler\BoolScrambler.cpp" />
+    <ClCompile Include="ShuttleScrambler\ExampleShuttleScrambRule.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Scrambler4B5B.cpp" />
-    <ClCompile Include="ShuttleScrambler.cpp" />
+    <ClCompile Include="4B5B\Scrambler4B5B.cpp" />
+    <ClCompile Include="ShuttleScrambler\ShuttleScrambler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base.h" />
-    <ClInclude Include="ExampleShuttleScrambRule.h" />
-    <ClInclude Include="Scrambler4B5B.h" />
-    <ClInclude Include="ShuttleScrambler.h" />
+    <ClInclude Include="BoolScrambler\BoolBitScrambler.h" />
+    <ClInclude Include="BoolScrambler\BoolScrambler.h" />
+    <ClInclude Include="ShuttleScrambler\ExampleShuttleScrambRule.h" />
+    <ClInclude Include="4B5B\Scrambler4B5B.h" />
+    <ClInclude Include="ShuttleScrambler\ShuttleScrambler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
